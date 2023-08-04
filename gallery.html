@@ -927,9 +927,7 @@
                 <div class="container-fluid">
                     <a class="navbar-brand brand-navset" href="https://www.transferet.co.in">
                         <a href="https://www.transferet.co.in/" class="custom-logo-link" rel="home"><img width="240"
-                                height="87"
-                                src="Logo w.png"
-                                class="custom-logo"
+                                height="87" src="Logo w.png" class="custom-logo"
                                 alt="Transferet Relocation | Home Packers and Movers | Office Moving Service"
                                 decoding="async" /></a>
                     </a>
@@ -1084,24 +1082,23 @@
                     <section data-aos="fade-left" class="container">
                         <div class="slider_wrapper">
                             <div class="slider">
-                                <img id="slider1" src="Final Selected/Selected/254A3031.JPG" alt="slider1" title="slider1">
-                                <img id="slider2" src="Final Selected/Selected/1O0A9932.JPG" alt="slider2">
-                                <img id="slider3" src="Final Selected/Selected/1O0A9936.JPG" alt="slider3">
-                                <img id="slider4" src="Final Selected/Selected/1O0A9904.JPG" alt="slider4">
-                                <img id="slider5" src="Final Selected/Selected/254A3042.JPG" alt="slider5">
-                                <img id="slider6" src="Final Selected/Selected/254A3047.JPG" alt="slider6">
-                                <img id="slider7" src="Final Selected/Selected/254A3222.JPG" alt="slider7">
-                                <img id="slider8" src="Final Selected/Selected/254A3297 - Copy - Copy.JPG"
-                                    alt="slider8">
-                                <img id="slider9" src="Final Selected/Selected/254A3352 - Copy.JPG" alt="slider9">
-                                <img id="slider10" src="Final Selected/Selected/254A3353 - Copy.JPG" alt="slider10">
-                                <img id="slider11" src="Final Selected/Selected/254A3354 - Copy.JPG" alt="slider11">
-                                <img id="slider12" src="Final Selected/Selected/254A3355 - Copy.JPG" alt="slider12">
-                                <img id="slider13" src="Final Selected/Selected/254A3356 - Copy.JPG" alt="slider13">
-                                <img id="slider14" src="Final Selected/Selected/254A3357 - Copy.JPG" alt="slider14">
-                                <img id="slider15" src="Final Selected/Selected/254A3358 - Copy.JPG" alt="slider15">
-                                <img id="slider16" src="Final Selected/Selected/254A3359 - Copy.JPG" alt="slider16">
-
+                                <!--  <img id="slider1" src="Selected/254A3031.JPG" alt="slider1">
+                                <img id="slider2" src="Selected/1O0A9932.JPG" alt="slider2">
+                                <img id="slider3" src="Selected/1O0A9936.JPG" alt="slider3">
+                                <img id="slider4" src="Selected/1O0A9904.JPG" alt="slider4">
+                                <img id="slider5" src="Selected/254A3042.JPG" alt="slider5">
+                                <img id="slider6" src="Selected/254A3047.JPG" alt="slider6">
+                                <img id="slider7" src="Selected/254A3222.JPG" alt="slider7">
+                                <img id="slider8" src="Selected/254A3297 - Copy - Copy.JPG" alt="slider8">
+                                <img id="slider9" src="Selected/254A3352 - Copy.JPG" alt="slider9">
+                                <img id="slider10" src="Selected/254A3353 - Copy.JPG" alt="slider10">
+                                <img id="slider11" src="Selected/254A3354 - Copy.JPG" alt="slider11">
+                                <img id="slider12" src="Selected/254A3355 - Copy.JPG" alt="slider12">
+                                <img id="slider13" src="Selected/254A3356 - Copy.JPG" alt="slider13">
+                                <img id="slider14" src="Selected/254A3357 - Copy.JPG" alt="slider14">
+                                <img id="slider15" src="Selected/254A3358 - Copy.JPG" alt="slider15">
+                                <img id="slider16" src="Selected/254A3359 - Copy.JPG" alt="slider16">
+ -->
                             </div>
                             <div class="slider-nav">
                                 <a href="#" class="slider-prev">&#8249;</a>
@@ -1118,6 +1115,8 @@
                                 position: relative;
                                 max-width: 100%;
                                 margin: 0 auto;
+                                background-color: #ebe4e4;
+                                border-radius: 1rem;
                             }
 
                             .slider {
@@ -1127,7 +1126,7 @@
                                 scroll-snap-type: x mandatory;
                                 scroll-behavior: smooth;
                                 box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, .25);
-                                border-radius: 0.5rem;
+                                border-radius: 1rem;
 
                             }
 
@@ -1145,6 +1144,7 @@
                                 transform: scale(1);
                                 -webkit-transition: .3s ease-in-out;
                                 transition: .3s ease-in-out;
+
                             }
 
                             .slider:hover img {
@@ -1204,7 +1204,7 @@
                             let slider = document.querySelector('.slider');
                             let scrollAmount = 0;
                             const scrollStep = slider.offsetWidth;
-                            slideInterval = 10000;
+                            let slideInterval = 5000;
 
                             function autoSlide() {
                                 if (scrollAmount < slider.scrollWidth - slider.offsetWidth) {
@@ -1247,9 +1247,76 @@
                                     behavior: 'smooth'
                                 });
                             });
+                            const images = [
+                                'Selected/1O0A0002.JPG',
+                                'Selected/1O0A0008.JPG',
+                                'Selected/1O0A9879.JPG',
+                                'Selected/1O0A9901.JPG',
+                                'Selected/1O0A9904.JPG',
+                                'Selected/1O0A9907.JPG',
+                                'Selected/1O0A9922.JPG',
+                                'Selected/1O0A9925.JPG',
+                                'Selected/1O0A9930.JPG',
+                                'Selected/1O0A9932.JPG',
+                                'Selected/1O0A9936.JPG',
+                                'Selected/1O0A9956.JPG',
+                                'Selected/1O0A9999.JPG',
+                                'Selected/254A3031.JPG',
+                                'Selected/254A3036.JPG',
+                                'Selected/254A3042.JPG',
+                                'Selected/254A3047.JPG',
+                                'Selected/254A3222.JPG',
+                                'Selected/254A3297 - Copy - Copy.JPG',
+                                'Selected/254A3340 - Copy.JPG',
+                                'Selected/254A3341 - Copy.JPG',
+                                'Selected/254A3352 - Copy.JPG',
+                                'Selected/254A3353 - Copy.JPG',
+                                'Selected/254A3354 - Copy.JPG',
+                                'Selected/254A3355 - Copy.JPG',
+                                'Selected/254A3356 - Copy.JPG',
+                                'Selected/254A3357 - Copy.JPG',
+                                'Selected/254A3358 - Copy.JPG',
+                                'Selected/254A3359 - Copy.JPG',
+                                'Selected/254A3360 - Copy.JPG',
+                                'Selected/254A3361 - Copy.JPG',
+                                'Selected/254A3362 - Copy.JPG',
+                                'Selected/254A3363 - Copy.JPG',
+                                'Selected/254A3367 - Copy.JPG',
+                                'Selected/254A3368 - Copy.JPG',
+                                'Selected/254A3369 - Copy.JPG',
+                                'Selected/254A3370.JPG',
+                                'Selected/254A3371.JPG',
+                                'Selected/254A3372 - Copy.JPG',
+                                'Selected/254A3373.JPG',
+                                'Selected/254A3374.JPG',
+                                'Selected/254A3375.JPG',
+                                'Selected/254A3376.JPG',
+                                'Selected/254A3377.JPG',
+                                'Selected/254A3378.JPG',
+                                'Selected/254A3380.JPG',
+                                'Selected/254A3381.JPG',
+                                'Selected/254A3387.JPG',
+                                'Selected/254A3390.JPG',
+                                'Selected/254A3391.JPG',
+                                'Selected/254A3397 - Copy.JPG',
+                                'Selected/254A3403 - Copy.JPG',
+                                'Selected/254A3412 - Copy.JPG',
+                                'Selected/254A3440 - Copy.JPG',
+                                'Selected/254A3479.JPG',
+                                'Selected/254A3541.JPG',
+                                'Selected/254A3543.JPG',
+                            ];
+                            function addImagesToSlider() {
+                                images.forEach(image => {
+                                    const imgElement = document.createElement('img');
+                                    imgElement.src = image;
+                                    imgElement.alt = 'Image';
+                                    slider.appendChild(imgElement);
+                                });
+                            }
+                            addImagesToSlider();
                         </script>
                     </section>
-
                 </main><!-- #main -->
             </div><!-- #primary -->
         </div><!-- #content -->
