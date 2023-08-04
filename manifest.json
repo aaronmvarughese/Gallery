@@ -1,0 +1,20 @@
+{
+    "name": "Transferet Relocation",
+    "short_name": "Transferet",
+    "start_url": ".",
+    "theme_color": "#4287f5",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "Logo update.png",
+            "size": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "jjj_re.png",
+            "size": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

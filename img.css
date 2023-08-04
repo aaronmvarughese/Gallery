@@ -1,0 +1,28 @@
+.slider_container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+@keyframes slide {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    animation: slide 10s ease-in-out;
+}
+
+.slider img {
+    width: 400px;
+    height: 300px;
+
+}
